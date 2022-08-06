@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="cfc94fed-0e98-45b9-8c4b-eca1a6d7af5e" name="RabbitMQ">
+        <fileTransfer rootFolder="/opt" accessType="SFTP" host="192.168.131.130" port="22" sshConfigId="722d4f5b-3d78-443b-8598-8b3ad771932b" sshConfig="root@192.168.131.130:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
